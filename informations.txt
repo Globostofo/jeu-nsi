@@ -1,0 +1,64 @@
+{x~~~~~~~~~~~~~~~~~~ Un Jeu De NSI plutôt Cool ~~~~~~~~~~~~~~~~~~x}
+
+{== REGLES ==}
+
+Le but du jeu est très simple :
+  - Tapez dans la balle.
+  - Renvoyez-la chez votre adversaire.
+  - Massacrez-le pour remporter la partie !
+
+Déroulement de la partie :
+  - Chacun des 2 joueurs peut choisir entre 3 personnages dif-
+    férents possédant leurs propres capacités.
+  - Le combat commence lorsqu'un joueur frappe la balle qui
+    s'élève alors dans les airs.
+  - Les concurrents doivent alors empêcher la balle de toucher
+    le sol de son côté du terrain sous peine de perdre la manche.
+  - Si par malheur, la balle venait à tomber au sol, le joueur
+    n'ayant pas réussi à la réattraper se verra ôter un certain
+    montant de points de vie (PV).
+  - Le premier joueur qui ne possède plus aucun point de vie (PV)
+    perde la partie.
+  - La balle peut rebondir contre les murs, le plafond et le
+    filet blanc qui se situe au milieur du terrain et qui permet
+    de délimiter la zone de déplacements de chaque joueur.
+
+Statistiques :
+  - Personnage n°1 : Odavaror Trollsbane, le guerrier bûcheron (force brute)
+      - Boost de vie			--> possède 35 PV supplémentaires
+      - Boost d'attaque			--> inflige 50% de dégâts en plus
+      - Boost de défense		--> subit 20% de dégâts en moins
+  - Personnage n°2 : Mary Kinnard, l'aventurière téméraire (agilité)
+      - Boost de vitesse		--> se déplace 20% plus vite
+      - Boost d'esquive			--> 25% de chance de ne subir aucun dégât
+      - Boost de hauteur de saut	--> saute 20% plus haut
+  - Personnage n°3 : Dexton Kersting, le savant fou (polyvalence)
+      - Boost de soin			--> gagne 5 PV à chaque manche remportée
+      - Boost de coup critique		--> 20% de chance d'infliger x2 dégâts
+      - Boost de vitesse de frappe	--> Tire 20% plus fort
+
+Commandes :
+  - Joueur de gauche :
+      - Se déplacer :	Q et D
+      - Sauter :	Z
+      - Tirer :		<espace>
+  - Joueur de droite :
+      - Se déplacer :	J et L
+      - Sauter :	I
+      - Tirer :		<right ctrl>
+  - Attention !
+      - Il se trouve que Pygame gère assez mal le nom des
+	touches du clavier. Il se peut donc que vous vous
+	trouvez dans la situation où le joueur de gauche ne
+	peut, ni sauter, ni se déplacer vers la gauche. Il
+	faut donc inverser le clavier sélectionné dans les
+	paramètres (même si votre clavier est en AZERTY, il
+	se peut que vous devez choisir l’option QWERTY).
+
+
+{== CREDITS ==}
+
+CLEMENT Romain --> gameplay
+VEILLARD Corentin --> communication client/serveur
+craftpix.net --> images de fond / sprites des joueurs / gui
+HeartBeast (youtube) --> sons (https://www.youtube.com/watch?v=mAbG8Oi-SvQ&ab_channel=HeartBeast)
